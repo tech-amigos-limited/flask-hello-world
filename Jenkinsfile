@@ -1,4 +1,4 @@
-@Library('jenkins-shared-library@feature/techamigos')
+@Library('jenkins-shared-library@feature/techamigos') _
 
 thePipeline(
     folder: [
