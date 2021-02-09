@@ -18,24 +18,19 @@ thePipeline(
             prepare: [
                 steps: [
                     'pip3 install -r requirements.txt'
-                ]
-            ],
+                        ]
+                      ],
             test: [
                 steps: [
                     'pytest -vs tests.py'
-                ]
-            ],
+                        ]
+                   ],
             build: [
                 steps: [
                 'echo "No build required"'
-                'echo "We can reference building a docker image??'
-                ]
-            ],
-            dockerise: [
-                steps: [
-                    'echo "No Kaniko build required"'
-                ]
-            ]
-        ]
+                        ]
+
+                    ]
+           ]
     ]
 )
