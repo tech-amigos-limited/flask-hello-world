@@ -1,4 +1,4 @@
-@Library('jenkins-shared-library@feature/techamigos') _
+@Library(“jenkins-shared-library@techamigos-stg”) _
 
 thePipeline(
     folder: [
@@ -29,8 +29,9 @@ thePipeline(
                 steps: [
                 'echo "No build required"',
                 'echo "DOCKER_REPO:$DOCKER_REPO"',
+                'echo "DOCKER_REPO_HOST:$DOCKER_REPO_HOST"',
                 'echo "PROJECT_NAME:$PROJECT_NAME"',
-                'echo "Reached end of  Jenkinsfile"'
+                'echo "Reached end of Jenkinsfile"'
                         ]
 
                     ]
