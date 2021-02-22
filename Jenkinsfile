@@ -1,4 +1,3 @@
-@Library('jenkins-shared-library@techamigos-stg') _
 thePipeline(
     folder: [
         _defaults: 'base',
