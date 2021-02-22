@@ -27,7 +27,8 @@ thePipeline(
                    ],
             build: [
                 steps: [
-                'echo "No build required"'
+                'echo "No build required"',
+                'echo "Reached end of Jenkinsfile"'
                         ]
 
                     ]
