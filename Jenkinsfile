@@ -28,7 +28,11 @@ thePipeline(
             build: [
                 steps: [
                 'echo "No build required"',
+                'echo "DOCKER_REPO:$DOCKER_REPO"',
+                'echo "PROJECT_NAME:$PROJECT_NAME"',
                 'echo "Reached end of Jenkinsfile"'
+
+
                         ]
 
                     ]
