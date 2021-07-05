@@ -1,3 +1,5 @@
+@Library('jenkins-shared-library@feature/giulio-testing') _
+
 thePipeline(
     folder: [
         _defaults: 'base',
